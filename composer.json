@@ -1,0 +1,22 @@
+{
+    "name": "richard/codewars",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Richard\\Codewars\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Richard\\Codewars\\Unit": "tests/Unit/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.4"
+    },
+    "config": {
+        "platform": {
+            "php": "8.3"
+        }
+    }
+}
