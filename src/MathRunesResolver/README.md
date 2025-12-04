@@ -1,0 +1,1 @@
+My solution for the following kata [kyu4](https://www.codewars.com/kata/546d15cebed2e10334000ed9)
