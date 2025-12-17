@@ -1,0 +1,1 @@
+My solution for the following kata [3 kyu](https://www.codewars.com/kata/5296bc77afba8baa690002d7)
