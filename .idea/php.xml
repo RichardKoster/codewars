@@ -42,9 +42,7 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="ac02f3a7-e993-4361-820a-c8c147a92aea" name="Ubuntu-22.04" home="\\wsl$\Ubuntu-22.04/usr/bin/php" auto="false" debugger_id="php.debugger.XDebug">
-        <remote_data INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DISTRIBUTION_ID="Ubuntu-22.04" />
-      </interpreter>
+      <interpreter id="ac02f3a7-e993-4361-820a-c8c147a92aea" name="Ubuntu-22.04" home="\\wsl$\Ubuntu-22.04/usr/bin/php" auto="false" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -118,7 +116,7 @@
       </interpreter>
     </phpInfoCache>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.3">
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.5">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
   <component name="PhpStanOptionsConfiguration">
