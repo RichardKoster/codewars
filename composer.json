@@ -1,6 +1,8 @@
 {
     "name": "richard/codewars",
     "type": "project",
+    "description": "My Codewars katas",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Richard\\Codewars\\": "src/"
@@ -13,6 +15,9 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^12.4"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     },
     "config": {
         "platform": {

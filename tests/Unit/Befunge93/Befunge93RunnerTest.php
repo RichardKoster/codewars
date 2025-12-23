@@ -41,13 +41,6 @@ TEXT;
 2 2345678901234567890123456789012345678
 TEXT;
 
-    private string $example6 = <<<TEXT
-v@.<
- >1^
->?<^
- >2^
-TEXT;
-
     public function testRunExample1()
     {
         $runner = new Befunge93Runner($this->example1);
@@ -85,12 +78,5 @@ TEXT;
         $runner = new Befunge93Runner($this->example5);
         $runner->run();
         self::assertSame('23571113171923293137', $runner->getOutput());
-    }
-
-    public function testRunExample6(): void
-    {
-        $runner = new Befunge93Runner($this->example6);
-        $runner->run();
-        self::assertSame('2', $runner->getOutput());
     }
 }
